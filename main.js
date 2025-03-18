@@ -253,7 +253,7 @@ async function requestapi() {
 
   try {
     // Enviar a requisição para a API
-    const response = await fetch("http://localhost:3000/api/create-page", {
+    const response = await fetch("https://3.93.177.24/api/create-page", {
       method: "POST",
       body: formData,
     });
