@@ -8,7 +8,7 @@ document.body.style.display = "none";
 
 async function fetchData() {
   try {
-    const response = await fetch(`https://3.93.177.24/api/page/${id}`);
+    const response = await fetch(`https://web-lov.onrender.com/api/page/${id}`);
     if (!response.ok) {
       throw new Error("Erro ao buscar dados da API");
     }
